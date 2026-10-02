@@ -1,0 +1,19 @@
+name: handy_tdlib_next_example
+description: Smoke-test app for the local handy_tdlib_next package.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  handy_tdlib_next:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,6 +1,6 @@
 import 'package:ffi/ffi.dart';
 import 'dart:ffi' as ffi;
-import 'package:handy_tdlib/src/tdapi/tdapi.dart';
+import 'package:handy_tdlib_next/src/tdapi/tdapi.dart';
 import 'dart:async';
 
 /// TDLib instance.

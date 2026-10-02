@@ -15,3 +15,6 @@ analyzer:
     missing_return: error
     dead_code: info
     todo: info
+  exclude:
+    - build/**
+    - android/**

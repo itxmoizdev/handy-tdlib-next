@@ -1,7 +1,11 @@
-name: handy_tdlib
-description: TDLib for Dart. Uses libtdjson. Improved fork of tdlib package by i-Naji
+name: handy_tdlib_next
+description: >-
+  Maintained Flutter TDLib (libtdjson) bindings fork. JSON interface for building
+  Telegram clients on Android. Based on handy_tdlib / i-Naji tdlib with fixes.
 version: 2.3.11
-repository: https://github.com/HandyGram/tdlib
+homepage: https://github.com/itxmoizdev/handy-tdlib-next
+repository: https://github.com/itxmoizdev/handy-tdlib-next
+issue_tracker: https://github.com/itxmoizdev/handy-tdlib-next/issues
 
 environment:
   sdk: ">=3.3.0 <4.0.0"
@@ -10,7 +14,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  
+
   ffi: ^2.1.2
 
 dev_dependencies:

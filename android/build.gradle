@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace "ru.tdrk.handy_tdlib"
+    namespace "dev.handy_tdlib_next"
     compileSdkVersion 34
 
     defaultConfig {

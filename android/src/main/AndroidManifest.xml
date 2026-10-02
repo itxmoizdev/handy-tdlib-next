@@ -1,4 +1,4 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="ru.tdrk.handy_tdlib">
+  package="dev.handy_tdlib_next">
   <uses-permission android:name="android.permission.INTERNET" />
 </manifest>

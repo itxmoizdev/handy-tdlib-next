@@ -1,3 +1,9 @@
+## 2.3.11
+* Republished as maintained fork package `handy_tdlib_next` (not affiliated with Naji / HandyGram)
+* Renamed Dart package, library entrypoint, and Android namespace
+* Updated LICENSE attribution for fork modifications
+* Refreshed README for fork install and provenance
+
 ## 2.3.10
 * Updated to TDLib 1.8.36 (87d881071)
 
