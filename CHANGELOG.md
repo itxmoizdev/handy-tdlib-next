@@ -1,3 +1,6 @@
+## 2.3.13
+* Update maintainer credit to Abdul Moiz Dev with GitHub and LinkedIn (@itxmoizdev)
+
 ## 2.3.12
 * Document maintainer Abdul Moiz (@itxmoizdev) in README, LICENSE, and package description
 

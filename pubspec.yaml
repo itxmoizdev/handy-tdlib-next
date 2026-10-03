@@ -1,8 +1,8 @@
 name: handy_tdlib_next
 description: >-
-  Flutter/Dart TDLib (libtdjson) bindings maintained by Abdul Moiz.
+  Flutter/Dart TDLib (libtdjson) bindings maintained by Abdul Moiz Dev.
   JSON interface for building Telegram clients on Android.
-version: 2.3.12
+version: 2.3.13
 homepage: https://github.com/itxmoizdev/handy-tdlib-next
 repository: https://github.com/itxmoizdev/handy-tdlib-next
 issue_tracker: https://github.com/itxmoizdev/handy-tdlib-next/issues
