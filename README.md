@@ -2,13 +2,18 @@
 
 `handy_tdlib_next` is a community-maintained Flutter/Dart package providing bindings for Telegram's TDLib JSON interface (`libtdjson`). It is intended for Flutter applications that need to communicate with TDLib to build a Telegram client or integrate TDLib features.
 
+## Maintainer
+
+**Abdul Moiz** ([@itxmoizdev](https://github.com/itxmoizdev))  
+GitHub: https://github.com/itxmoizdev/handy-tdlib-next
+
 This package exposes:
 
 - Generated Dart models for TDLib functions and objects (`TdFunction`, `TdObject`)
 - FFI access to `libtdjson` through `TdPlugin` (`td_create_client_id`, `td_send`, `td_receive`, `td_execute`)
 - Helpers to parse TDLib JSON into typed Dart objects (`convertJsonToObject`, `convertMapToObject`)
 
-Package version: **2.3.11**  
+Package version: **2.3.12**  
 Bundled TDLib / `libtdjson`: **1.8.36** (commit `87d881071`, see [`data/README.md`](data/README.md))
 
 ## Features
@@ -47,7 +52,7 @@ Or add the dependency manually:
 
 ```yaml
 dependencies:
-  handy_tdlib_next: ^2.3.11
+  handy_tdlib_next: ^2.3.12
 ```
 
 Then run:
@@ -214,7 +219,7 @@ Default library name used by `TdPlugin.initialize()` is `libtdjson.so`, which ma
 | Component | Value in this repository |
 |---|---|
 | Package name | `handy_tdlib_next` |
-| Package version | `2.3.11` |
+| Package version | `2.3.12` |
 | TDLib version | `1.8.36` |
 | TDLib commit | `87d881071` |
 | Scheme | `data/td_api.tl` |
@@ -233,7 +238,7 @@ If your project currently depends on `handy_tdlib` and you need to move to this 
 
 ```yaml
 dependencies:
-  handy_tdlib_next: ^2.3.11
+  handy_tdlib_next: ^2.3.12
 ```
 
 2. Update imports:
@@ -279,9 +284,11 @@ This package is distributed under the **BSD 3-Clause** license. See [`LICENSE`](
 Copyright notices in `LICENSE`:
 
 - Copyright 2019 Naji
-- Copyright 2026 handy_tdlib_next contributors
+- Copyright 2026 Abdul Moiz
 
 ## Attribution
+
+Maintained and published by **Abdul Moiz** ([@itxmoizdev](https://github.com/itxmoizdev)).
 
 This repository’s public API and packaging lineage derive from earlier Flutter/Dart TDLib binding work distributed under the BSD 3-Clause license (copyright Naji). TDLib itself is developed at [tdlib/td](https://github.com/tdlib/td).
 
@@ -291,14 +298,15 @@ Per the BSD 3-Clause terms, neither the name of Naji nor the names of its contri
 
 ## Contributing
 
-Issues and pull requests are welcome at the repository:
+Issues and pull requests are welcome:
 
-https://github.com/itxmoizdev/handy-tdlib-next
+- Maintainer: **Abdul Moiz** — [@itxmoizdev](https://github.com/itxmoizdev)
+- Repository: https://github.com/itxmoizdev/handy-tdlib-next
 
 When changing the TDLib scheme or native libraries, use the maintainer scripts and regenerate Dart bindings with `dart generator/generate.dart` from the repository root, then verify with `dart analyze`.
 
 ## Disclaimer
 
-`handy_tdlib_next` is an independent community-maintained Flutter/Dart package. It is **not** an official Telegram or TDLib package, and it is **not** affiliated with, endorsed by, or maintained by Telegram, the TDLib project, Naji, HandyGram, or the original `handy_tdlib` authors unless stated otherwise by those parties.
+`handy_tdlib_next` is an independent community package maintained by **Abdul Moiz**. It is **not** an official Telegram or TDLib package, and it is **not** affiliated with, endorsed by, or maintained by Telegram, the TDLib project, Naji, HandyGram, or the original `handy_tdlib` authors unless stated otherwise by those parties.
 
 Use of Telegram / TDLib is subject to Telegram’s and TDLib’s own terms and documentation. This package only provides Dart/Flutter bindings and packaging around `libtdjson`.

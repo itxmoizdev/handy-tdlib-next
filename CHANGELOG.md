@@ -1,3 +1,6 @@
+## 2.3.12
+* Document maintainer Abdul Moiz (@itxmoizdev) in README, LICENSE, and package description
+
 ## 2.3.11
 * Republished as maintained fork package `handy_tdlib_next` (not affiliated with Naji / HandyGram)
 * Renamed Dart package, library entrypoint, and Android namespace
