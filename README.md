@@ -6,6 +6,7 @@
 
 **Abdul Moiz Dev** ([@itxmoizdev](https://github.com/itxmoizdev))
 
+- Website: [itxmoizdev.com](https://itxmoizdev.com)
 - GitHub: [@itxmoizdev](https://github.com/itxmoizdev)
 - LinkedIn: [itxmoizdev](https://www.linkedin.com/in/itxmoizdev)
 - Package repository: https://github.com/itxmoizdev/handy-tdlib-next
@@ -16,7 +17,7 @@ This package exposes:
 - FFI access to `libtdjson` through `TdPlugin` (`td_create_client_id`, `td_send`, `td_receive`, `td_execute`)
 - Helpers to parse TDLib JSON into typed Dart objects (`convertJsonToObject`, `convertMapToObject`)
 
-Package version: **2.3.13**  
+Package version: **2.3.14**  
 Bundled TDLib / `libtdjson`: **1.8.36** (commit `87d881071`, see [`data/README.md`](data/README.md))
 
 ## Features
@@ -55,7 +56,7 @@ Or add the dependency manually:
 
 ```yaml
 dependencies:
-  handy_tdlib_next: ^2.3.13
+  handy_tdlib_next: ^2.3.14
 ```
 
 Then run:
@@ -222,7 +223,7 @@ Default library name used by `TdPlugin.initialize()` is `libtdjson.so`, which ma
 | Component | Value in this repository |
 |---|---|
 | Package name | `handy_tdlib_next` |
-| Package version | `2.3.13` |
+| Package version | `2.3.14` |
 | TDLib version | `1.8.36` |
 | TDLib commit | `87d881071` |
 | Scheme | `data/td_api.tl` |
@@ -241,7 +242,7 @@ If your project currently depends on `handy_tdlib` and you need to move to this 
 
 ```yaml
 dependencies:
-  handy_tdlib_next: ^2.3.13
+  handy_tdlib_next: ^2.3.14
 ```
 
 2. Update imports:
@@ -304,6 +305,7 @@ Per the BSD 3-Clause terms, neither the name of Naji nor the names of its contri
 Issues and pull requests are welcome:
 
 - Maintainer: **Abdul Moiz Dev** — [@itxmoizdev](https://github.com/itxmoizdev)
+- Website: [itxmoizdev.com](https://itxmoizdev.com)
 - LinkedIn: [itxmoizdev](https://www.linkedin.com/in/itxmoizdev)
 - Repository: https://github.com/itxmoizdev/handy-tdlib-next
 

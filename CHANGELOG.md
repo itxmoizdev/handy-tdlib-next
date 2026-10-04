@@ -1,3 +1,6 @@
+## 2.3.14
+* Add maintainer website https://itxmoizdev.com
+
 ## 2.3.13
 * Update maintainer credit to Abdul Moiz Dev with GitHub and LinkedIn (@itxmoizdev)
 
