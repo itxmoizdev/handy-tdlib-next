@@ -1,3 +1,6 @@
+## 2.3.15
+* Add maintainer contact emails (opensource, support, security, and related)
+
 ## 2.3.14
 * Add maintainer website https://itxmoizdev.com
 

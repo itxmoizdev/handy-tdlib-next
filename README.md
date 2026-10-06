@@ -10,6 +10,9 @@
 - GitHub: [@itxmoizdev](https://github.com/itxmoizdev)
 - LinkedIn: [itxmoizdev](https://www.linkedin.com/in/itxmoizdev)
 - Package repository: https://github.com/itxmoizdev/handy-tdlib-next
+- Open source: [opensource@itxmoizdev.com](mailto:opensource@itxmoizdev.com)
+- Support: [support@itxmoizdev.com](mailto:support@itxmoizdev.com)
+- Security: [security@itxmoizdev.com](mailto:security@itxmoizdev.com)
 
 This package exposes:
 
@@ -17,7 +20,7 @@ This package exposes:
 - FFI access to `libtdjson` through `TdPlugin` (`td_create_client_id`, `td_send`, `td_receive`, `td_execute`)
 - Helpers to parse TDLib JSON into typed Dart objects (`convertJsonToObject`, `convertMapToObject`)
 
-Package version: **2.3.14**  
+Package version: **2.3.15**  
 Bundled TDLib / `libtdjson`: **1.8.36** (commit `87d881071`, see [`data/README.md`](data/README.md))
 
 ## Features
@@ -56,7 +59,7 @@ Or add the dependency manually:
 
 ```yaml
 dependencies:
-  handy_tdlib_next: ^2.3.14
+  handy_tdlib_next: ^2.3.15
 ```
 
 Then run:
@@ -223,7 +226,7 @@ Default library name used by `TdPlugin.initialize()` is `libtdjson.so`, which ma
 | Component | Value in this repository |
 |---|---|
 | Package name | `handy_tdlib_next` |
-| Package version | `2.3.14` |
+| Package version | `2.3.15` |
 | TDLib version | `1.8.36` |
 | TDLib commit | `87d881071` |
 | Scheme | `data/td_api.tl` |
@@ -242,7 +245,7 @@ If your project currently depends on `handy_tdlib` and you need to move to this 
 
 ```yaml
 dependencies:
-  handy_tdlib_next: ^2.3.14
+  handy_tdlib_next: ^2.3.15
 ```
 
 2. Update imports:
@@ -308,6 +311,18 @@ Issues and pull requests are welcome:
 - Website: [itxmoizdev.com](https://itxmoizdev.com)
 - LinkedIn: [itxmoizdev](https://www.linkedin.com/in/itxmoizdev)
 - Repository: https://github.com/itxmoizdev/handy-tdlib-next
+
+### Contact
+
+| Email | Use |
+| --- | --- |
+| [hello@itxmoizdev.com](mailto:hello@itxmoizdev.com) | General contact, portfolio, LinkedIn, companies |
+| [contact@itxmoizdev.com](mailto:contact@itxmoizdev.com) | Contact forms / general inquiries |
+| [support@itxmoizdev.com](mailto:support@itxmoizdev.com) | Support for open-source projects |
+| [opensource@itxmoizdev.com](mailto:opensource@itxmoizdev.com) | GitHub / pub.dev package communication |
+| [business@itxmoizdev.com](mailto:business@itxmoizdev.com) | Freelance, partnerships, companies |
+| [security@itxmoizdev.com](mailto:security@itxmoizdev.com) | Security reports |
+| [jobs@itxmoizdev.com](mailto:jobs@itxmoizdev.com) | Hiring / recruitment inquiries |
 
 When changing the TDLib scheme or native libraries, use the maintainer scripts and regenerate Dart bindings with `dart generator/generate.dart` from the repository root, then verify with `dart analyze`.
 
