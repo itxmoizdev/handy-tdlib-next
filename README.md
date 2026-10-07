@@ -20,7 +20,7 @@ This package exposes:
 - FFI access to `libtdjson` through `TdPlugin` (`td_create_client_id`, `td_send`, `td_receive`, `td_execute`)
 - Helpers to parse TDLib JSON into typed Dart objects (`convertJsonToObject`, `convertMapToObject`)
 
-Package version: **2.3.15**  
+Package version: **2.3.16**  
 Bundled TDLib / `libtdjson`: **1.8.36** (commit `87d881071`, see [`data/README.md`](data/README.md))
 
 ## Features
@@ -59,7 +59,7 @@ Or add the dependency manually:
 
 ```yaml
 dependencies:
-  handy_tdlib_next: ^2.3.15
+  handy_tdlib_next: ^2.3.16
 ```
 
 Then run:
@@ -226,7 +226,7 @@ Default library name used by `TdPlugin.initialize()` is `libtdjson.so`, which ma
 | Component | Value in this repository |
 |---|---|
 | Package name | `handy_tdlib_next` |
-| Package version | `2.3.15` |
+| Package version | `2.3.16` |
 | TDLib version | `1.8.36` |
 | TDLib commit | `87d881071` |
 | Scheme | `data/td_api.tl` |
@@ -245,7 +245,7 @@ If your project currently depends on `handy_tdlib` and you need to move to this 
 
 ```yaml
 dependencies:
-  handy_tdlib_next: ^2.3.15
+  handy_tdlib_next: ^2.3.16
 ```
 
 2. Update imports:

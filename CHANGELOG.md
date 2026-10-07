@@ -1,3 +1,6 @@
+## 2.3.16
+* Fix dartdoc INFO for `convertMapToObject` (angle brackets in docs)
+
 ## 2.3.15
 * Add maintainer contact emails (opensource, support, security, and related)
 

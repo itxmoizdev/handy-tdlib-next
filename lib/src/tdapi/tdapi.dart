@@ -1344,7 +1344,7 @@ part 'functions/test_get_difference.dart';
 part 'functions/test_use_update.dart';
 part 'functions/test_return_error.dart';
 
-/// Convert decoded JSON (Map<String, dynamic>) to TdObject
+/// Convert decoded JSON (`Map` of `String` to `dynamic`) to [TdObject].
 TdObject? convertMapToObject(final Map<String, dynamic>? parsed) {
   if (parsed == null) return null;
   switch (parsed['@type']) {
